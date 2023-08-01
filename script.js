@@ -50,13 +50,25 @@ function parallaxAnimation() {
 
 function gsapAnimation() {
   gsap.fromTo("nav", { y: -100 }, { y: 0, duration: 1 });
-  gsap.fromTo(".header-about h4", { x: -400 }, { x: 0, duration: 0.5 });
-  gsap.fromTo(".header-about h1", { x: -400 }, { x: 0, duration: 0.6 });
-  gsap.fromTo(".header-about p", { x: -400 }, { x: 0, duration: 0.8 });
+  gsap.fromTo(
+    ".header-about h4",
+    { x: -400, opacity: 0 },
+    { x: 0, duration: 0.5, opacity: 1 }
+  );
+  gsap.fromTo(
+    ".header-about h1",
+    { x: -400, opacity: 0 },
+    { x: 0, duration: 0.6, opacity: 1 }
+  );
+  gsap.fromTo(
+    ".header-about p",
+    { x: -400, opacity: 0 },
+    { x: 0, duration: 0.8, opacity: 1 }
+  );
   gsap.fromTo(
     ".header-about .header-social-media",
-    { x: -400 },
-    { x: 0, duration: 1 }
+    { x: -400, opacity: 0 },
+    { x: 0, duration: 1, opacity: 1 }
   );
   gsap.fromTo(".header-image", { x: 400 }, { x: 0, duration: 1 });
 }

@@ -11,7 +11,9 @@ a {
 }
 
 .container {
-  padding: 20px 100px;
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 #circle {
@@ -132,10 +134,6 @@ header .header-social-media {
 
 header .header-social-media a {
   margin-right: 25px;
-}
-
-header .header-image {
-  margin-right: 100px;
 }
 
 header .header-image .header-image-background {
