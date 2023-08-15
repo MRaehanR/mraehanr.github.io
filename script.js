@@ -1,7 +1,9 @@
 gsapAnimation();
 parallaxAnimation();
-hoverAnimation();
+// hoverAnimation();
 cursorAnimation();
+
+new Glide(".portfolio").mount();
 
 // VANTA.NET({
 //   el: "body",
